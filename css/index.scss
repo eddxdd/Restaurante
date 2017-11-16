@@ -2,8 +2,7 @@
 
 body {
   font-family: Helvetica;
-  color: #fff;
-  background: #16aabb;
+  background: #fafafa;
 }
 
 h1 {
@@ -14,4 +13,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  background: rgba(0,0,0,.2);
 }

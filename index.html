@@ -17,31 +17,45 @@
   <header id="main-header">
     <nav class="nav">
       <div class="wrapper">
-        <h1 id="slogan" style="color:gray"><u>Restaurant Plaza</u></h1>
+        <div id="toggle-menu">☰</div>
+        <!--<h1 id="slogan" style="color:gray"><u>Restaurant Plaza</u></h1>-->
         <ul class="menu">
-          <li class="close">&times;</li>
           <li class="nav-main" data-id="#home"><a href="#home">HOME</a></li>
           <li class="nav-main" data-id="#about"><a href="#about">MENU</a></li>
           <li class="nav-main" data-id="#skill"><a href="#skill">GALLERY</a></li>
           <li class="nav-main" data-id="#portfolio"><a href="#portfolio">CONTACT</a></li>
         </ul>
-        <span class="mobile-btn">☰</span>
         <div class="overlay"></div>
       </div>
     </nav>
   </header>
   <!-- End Header -->
 
+  <!-- Home -->
+  <section id="home" class="page-section">
+    <div class="display">
+      <div class="display-bg">
+        <canvas id="sky"></canvas>
+        <div class="wrapper">
+          <div class="display-i">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Home -->
+
   <!-- Footer -->
   <footer class="footer">
       <div class="wrapper">
-        <div class="footer--catchphrase">
-          Developed and designed by
-        </div>
-        <div class="footer--name">Eduardo Lemos</div>
+        <div class="footer--catchphrase">Developed and designed by</div>
+        <div class="footer--name">Eduardo Lemos 2017</div>
       </div>
   </footer>
 
   <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/menu.js"></script>
   </body>
 </html>

@@ -1,9 +1,17 @@
+@import '_header';
 
 body {
   font-family: Helvetica;
   color: #fff;
   background: #16aabb;
+}
+
+h1 {
+  margin-left: 40px;
+}
+
+footer {
   display: flex;
-  justify-content: center; /* align horizontal */
-  align-items: center; /* align vertical */
+  justify-content: center;
+  align-items: flex-end;
 }

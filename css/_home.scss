@@ -1,8 +1,16 @@
-.wrapper {
+.image-carousel {
+  width: 630px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
 
+  .inner {
+    display: flex;
+    position: absolute;
+  }
 }
 
-.display-bg img {
+.inner img {
   height: 400px;
   background-size: auto 100%;
 }

@@ -7,7 +7,7 @@ let carousels = document.getElementsByClassName('image-carousel');
         inner = c.getElementsByClassName('inner')[0],
         imgs = inner.getElementsByTagName('img'),
         currentImageIndex = 0,
-        width = 1200,
+        width = 80,
         bubbles = [];
 
     for (let i = 0; i < imgs.length; i++) {
@@ -23,7 +23,7 @@ let carousels = document.getElementsByClassName('image-carousel');
     }
 
     function switchImg () {
-        inner.style.left = -width * currentImageIndex + 'px';
+        inner.style.left = -width * currentImageIndex + 'vw';
 
         bubbles.forEach(function (b, i) {
             if (i === currentImageIndex) {

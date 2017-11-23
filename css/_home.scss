@@ -1,19 +1,25 @@
-
+// Variables
+$width: 80vw;
+$height: 20vw;
 
 .image-carousel {
-  width: 1200px;
-  height: 40%;
-  overflow: hidden;
-  position: relative;
-  margin: auto;
+    width: $width;
+    height: $height;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
 
     .inner {
         display: flex;
         position: absolute;
         left: 0;
         transition: left 0.25s ease-out;
+        img {
+            // Set the dimensions of the images to the same size as the carousel itself
+            width: $width;
+            height: $height;
+        }
     }
-
     .bubbles {
         display: flex;
         justify-content: center;
@@ -22,7 +28,6 @@
         left: 0;
         right: 0;
         margin-bottom: 5px;
-
         .bubble {
             margin: 2.5px;
             background-color: white;
@@ -33,18 +38,16 @@
             opacity: 0.25;
             transition: opacity 0.1s linear;
             cursor: pointer;
-
             &:hover {
                 opacity: 0.65;
             }
-
             &.active {
                 opacity: 1;
             }
         }
     }
-
-    .next::after, .prev::after {
+    .next::after,
+    .prev::after {
         content: '>';
         position: absolute;
         top: 50%;
@@ -63,25 +66,23 @@
         opacity: 0.5;
         transition: opacity 0.1s linear;
     }
-
-    .next:hover::after, .prev:hover::after {
+    .next:hover::after,
+    .prev:hover::after {
         opacity: 1;
     }
-
     .prev::after {
         content: '<';
         left: 0;
     }
 }
 
-
 @media screen and (max-width: 768px){
   .image-carousel {
-    width: 100vw;
+    width: 100%;
+    }
 
     img {
-    width: 100%;
-    height: 80vh;
+      width: 100%;
+      height: 70vw;
     }
-  }
 }

@@ -1,9 +1,12 @@
 @import '_header';
 @import '_home';
+@import '_deals';
+@import '_apps-download';
 
 body {
   font-family: Helvetica;
   background: #fafafa;
+  text-align: center;
 }
 
 h1 {

@@ -19,4 +19,13 @@ footer {
   justify-content: center;
   align-items: flex-end;
   background: rgba(0,0,0,.2);
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+
+@media only screen and (max-width: 850px) {
+  footer {
+    margin: auto;
+  }
 }

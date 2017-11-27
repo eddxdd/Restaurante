@@ -1,10 +1,27 @@
-#apps-download .wrapper {
-  background-color: #444;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: auto;
+#apps-download {
+  .wrapper {
+    background-color: #444;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
 
   h2 {
+    color: #529c7c;
     font-size: 36px;
+  }
+
+  .download {
+    padding: 30px 70px 30px 70px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #apps-download {
+    .wrapper {
+      margin: auto;
+    }
   }
 }

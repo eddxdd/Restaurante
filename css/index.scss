@@ -8,6 +8,8 @@ body {
   font-family: Helvetica;
   background: #fafafa;
   text-align: center;
+  background: url('../img/bg.jpg') no-repeat 40%;
+  background-size: cover;
 }
 
 h1 {
@@ -18,13 +20,16 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background: rgba(0,0,0,.2);
-  margin-left: 10rem;
-  margin-right: 10rem;
+  background: #444;
+  color: #fff;
+  margin: auto 10.8rem;
+  margin-bottom: 10px;
+  box-shadow: 5px 0 4px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
 }
 
 
 @media only screen and (max-width: 850px) {
+
   footer {
     margin: auto;
   }

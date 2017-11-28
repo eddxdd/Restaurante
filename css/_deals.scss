@@ -1,11 +1,21 @@
-#deals .wrapper {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: auto;
-  margin-left: 10rem;
-  margin-right: 10rem;
+#deals {
+  .wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto 10.8rem;
+    background: #fff;
+    box-shadow: 5px 0 4px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
 
-  h2 {
-    font-size: 36px;
+    h2 {
+      font-size: 36px;
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #deals {
+    .wrapper {
+      margin: auto;
+    }
   }
 }

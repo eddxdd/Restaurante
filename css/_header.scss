@@ -1,6 +1,7 @@
+
 .menu {
 		padding-left: 0;
-		margin: 0 8px;
+		margin: 0 8px 10px;
 		list-style: none;
 		background: #fafafa;
 		display: none;
@@ -48,11 +49,13 @@ a:hover {
   .menu{
     display: flex;
   }
+
   li{
     text-align: center;
     border-right: 1px solid rgba(0,0,0,.2);
     border-bottom: 0px;
   }
+
   a{
     padding-left: 0;
   }

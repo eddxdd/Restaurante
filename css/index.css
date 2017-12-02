@@ -214,10 +214,7 @@ a:hover {
       margin-right: 1.5em; }
   #menu-preview .download-list {
     display: flex;
-    flex-direction: column; }
-    #menu-preview .download-list .download {
-      padding: 40px 120px 40px 120px;
-      margin: 0 5em 15px 5em; } }
+    flex-direction: column; } }
 #gallery {
   display: flex; }
   #gallery .wrapper {

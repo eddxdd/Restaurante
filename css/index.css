@@ -217,8 +217,7 @@ a:hover {
     flex-direction: column; }
     #menu-preview .download-list .download {
       padding: 40px 120px 40px 120px;
-      margin: auto;
-      margin-bottom: 15px; } }
+      margin: 0 5em 15px 5em; } }
 #gallery {
   display: flex; }
   #gallery .wrapper {
@@ -593,6 +592,7 @@ footer {
 
 @media only screen and (max-width: 850px) {
   footer {
-    margin: auto; } }
+    margin: auto;
+    margin-bottom: 15px; } }
 
 /*# sourceMappingURL=index.css.map */

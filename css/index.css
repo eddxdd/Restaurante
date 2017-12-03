@@ -565,6 +565,70 @@ html.lb-disable-scrolling {
           width: 100%; }
         #contact .wrapper .form .contact-form button {
           margin: 15px; } }
+#menu {
+  display: flex; }
+  #menu .wrapper {
+    display: flex;
+    flex-flow: row;
+    margin: auto 10.8rem;
+    width: 100%;
+    background: #fafafa;
+    box-shadow: 5px 0 4px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: 1px solid #fff; }
+    #menu .wrapper .highlight {
+      width: 15vw;
+      background: url("../img/menu1.jpg") no-repeat 80%;
+      background-size: cover;
+      border: 1px solid #444;
+      box-shadow: 5px 0 4px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      opacity: 0.8;
+      transition: width 2s; }
+    #menu .wrapper .highlight:hover {
+      opacity: 1;
+      width: 70%; }
+    #menu .wrapper .title {
+      line-height: 1em;
+      margin-bottom: 0.5em;
+      color: #fff;
+      font-size: 4.5rem; }
+    #menu .wrapper .subtitle {
+      opacity: 0.8;
+      line-height: 1.2em;
+      color: #fff;
+      font-size: 2.5rem; }
+    #menu .wrapper .details {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: auto;
+      padding: 10px; }
+      #menu .wrapper .details .item {
+        margin: 10px;
+        padding: 10px;
+        width: 300px;
+        height: 300px; }
+      #menu .wrapper .details .name {
+        line-height: 1em;
+        margin-bottom: 0.5em;
+        font-size: 4rem; }
+      #menu .wrapper .details .description {
+        opacity: 0.8;
+        line-height: 1.2em;
+        font-size: 2rem; }
+
+@media only screen and (max-width: 850px) {
+  #menu .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+    #menu .wrapper .highlight {
+      width: 100%;
+      height: 200px;
+      margin: auto;
+      opacity: 1; }
+    #menu .wrapper .highlight:hover {
+      width: 100%; } }
 body {
   font-family: Helvetica;
   background: #fafafa;

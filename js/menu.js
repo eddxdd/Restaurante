@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function() {
 	$('.mobile').click(function() {
 		$('ul').toggleClass('active');
@@ -27,3 +28,9 @@ $(function(){
          $(this).children('ul').delay(20).slideUp(200);
     });
 });
+=======
+
+		$('#toggle-menu').click(function(){
+			$(this).next().slideToggle();
+		})
+>>>>>>> 77dcebe079cf5553021cd928daf187f28b0a83e0

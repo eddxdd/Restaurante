@@ -1,0 +1,45 @@
+@import '_main';
+@import '_header';
+//gallery
+@import '_gallery';
+@import '_lightbox';
+//contact
+@import '_contact';
+//menu
+@import '_menu';
+
+body {
+  font-family: Helvetica;
+  background: #fafafa;
+  text-align: center;
+  background: url('../img/bg.jpg') no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin-left: 40px;
+}
+
+.fa {
+  color: #f24848;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: #444;
+  color: #fff;
+  font-weight: 500;
+  padding: 5px 0;
+  margin: 10px 10.8rem 4rem;
+  box-shadow: 5px 0 4px rgba(0, 0, 0, .16), 0 3px 6px rgba(0, 0, 0, .23);
+}
+
+
+@media only screen and (max-width: 850px) {
+
+  footer {
+    margin: auto;
+  }
+}

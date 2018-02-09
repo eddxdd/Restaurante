@@ -578,7 +578,6 @@ html.lb-disable-scrolling {
     border: 1px solid #fff; }
     #menu .wrapper .highlight {
       width: 30vw;
-      max-width: 35vw;
       background: url("../img/menu1.jpg") no-repeat 80%;
       background-size: cover;
       border: 1px solid #444;
